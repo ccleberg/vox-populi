@@ -1,0 +1,22 @@
+┌──────────────────────────────────────────────────────────────┐
+│  V O X   P O P U L I                       [ KRZ ]   krz.sh  │
+└──────────────────────────────────────────────────────────────┘
+
+WHAT
+  web client for tumblr, written in php.
+
+INSTALL
+  1. create a tumblr app for a consumer key/secret pair:
+     https://www.tumblr.com/oauth/apps
+  2. set environment variables in .htaccess:
+
+         SetEnv CONSUMER_KEY "<your-consumer-key>"
+         SetEnv CONSUMER_SECRET "<your-consumer-secret>"
+
+  3. git clone into the web directory you serve from.
+  4. done. unauthenticated visitors are redirected to the tumblr
+     login.
+
+┌──────────────────────────────────────────────────────────────┐
+│  krz.sh                                                      │
+└──────────────────────────────────────────────────────────────┘
