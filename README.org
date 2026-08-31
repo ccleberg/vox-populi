@@ -1,0 +1,18 @@
+#+title: vox populi
+
+* what
+web client for tumblr, written in php.
+
+* install
+1. create a tumblr app for a consumer key/secret pair:
+   https://www.tumblr.com/oauth/apps
+2. set environment variables in .htaccess:
+
+#+begin_src sh
+SetEnv CONSUMER_KEY "<your-consumer-key>"
+SetEnv CONSUMER_SECRET "<your-consumer-secret>"
+#+end_src
+
+3. git clone into the web directory you serve from.
+4. done. unauthenticated visitors are redirected to the tumblr
+   login.
